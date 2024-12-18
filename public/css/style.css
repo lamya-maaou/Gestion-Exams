@@ -1,0 +1,134 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #c0a8eb !important;
+    color: #333;
+}
+
+/* Conteneur principal */
+.example-wrapper, .content {
+    margin: 2em auto;
+    padding: 20px;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+h1, h2 {
+    color: #430f72 !important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    border-bottom: 2px solid #e6a0f2;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+
+/* Paragraphes */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Listes */
+.content p {
+    margin-left: 20px;
+}
+
+/* Couleur pour les codes */
+code {
+    background: #e490f3;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Liens */
+a {
+    color: #5a2a83;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Séparateur */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e490f3;
+    margin: 20px 0;
+}
+/* Changer la couleur de fond du header */
+header {
+    background-color: #333;  /* Fond gris foncé */
+    color: #fff;             /* Texte en blanc */
+    padding: 20px;
+    display: flex;           /* Flexbox */
+    justify-content: space-between; /* Espacer le titre et le nav */
+    align-items: center;     /* Centrer verticalement */
+    width: 100%;             /* S'assurer que le header occupe toute la largeur */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Menu de navigation */
+nav {
+    display: flex;           /* Utiliser Flexbox pour le nav */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;       /* Espacer les éléments du menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Changer la couleur de fond du footer */
+footer {
+    background-color: #222;  /* Fond noir */
+    color: #000000;             /* Texte en blanc */
+    padding: 15px;
+    display: flex;           /* Utiliser Flexbox */
+    justify-content: center; /* Centrer le contenu */
+    align-items: center;     /* Centrer verticalement */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+

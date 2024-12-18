@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Gestion des Examens{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1>Application de Gestion des Exams</h1>
+</div>
+
+<div class="content">
+    <h2>Introduction</h2>
+    <p>
+        L'application "Gestion des Examens" est une plateforme développée avec Symfony, un framework PHP moderne, permettant de gérer efficacement les examens académiques d'une institution. Elle facilite la gestion des informations relatives aux étudiants, aux enseignants, aux modules, aux notes, aux filières et aux semestres, tout en assurant un suivi fluide et organisé.
+    </p>
+
+    <h2>Objectifs de l'Application</h2>
+    <p>1 - Simplifier la gestion des données académiques.</p>
+    <p>2 - Automatiser les processus de création, modification, consultation et suppression (CRUD) des entités.</p>
+    <p>3 - Fournir une interface intuitive pour les utilisateurs.</p>
+
+    <h2>Fonctionnalités Principales</h2>
+    <p><strong>1 - Gestion des Étudiants :</strong> Ajouter, consulter, modifier et supprimer des informations sur les étudiants (nom, prénom, filière, semestre, etc.).</p>
+    <p><strong>2 - Gestion des Enseignants :</strong> Suivi des informations des enseignants (nom, matière enseignée, etc.).</p>
+    <p><strong>3 - Gestion des Modules :</strong> Administration des modules enseignés dans chaque filière et semestre.</p>
+    <p><strong>4 - Gestion des Filières et Semestres :</strong> Organisation des étudiants par filières et par semestres pour une meilleure structuration académique.</p>
+    <p><strong>5 - Gestion des Notes :</strong> Enregistrement des notes des étudiants pour chaque module et semestre. Affichage des résultats selon les besoins.</p>
+    <p><strong>6 - CRUD pour Chaque Entité :</strong> Toutes les entités (Étudiant, Enseignant, Module, Note, Filière, Semestre) disposent des opérations Créer, Lire, Mettre à jour et Supprimer.</p>
+
+    <h2>Technologies Utilisées</h2>
+    <p>
+        - <strong>Symfony :</strong> Framework PHP pour le développement back-end.<br>
+        - <strong>Twig :</strong> Moteur de templates pour le rendu des vues.<br>
+        - <strong>HTML/CSS/Bootstrap :</strong> Pour le style et le design des pages.<br>
+        - <strong>XAMPP :</strong> Serveur local pour le développement.<br>
+        - <strong>MySQL :</strong> Base de données pour stocker les informations académiques.
+    </p>
+
+    <h2>Architecture de l'Application</h2>
+    <p>
+        - <strong>Back-end :</strong> Gestion des entités, logique métier, et communication avec la base de données grâce à Symfony.<br>
+        - <strong>Front-end :</strong> Affichage des informations et interaction utilisateur avec des templates Twig stylés via CSS et Bootstrap.<br>
+        - <strong>Base de données :</strong> Tables pour chaque entité (étudiants, enseignants, notes, modules, filières, semestres).
+    </p>
+</div>
+{% endblock %}
